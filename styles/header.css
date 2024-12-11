@@ -1,0 +1,123 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    height: 75px;
+    justify-content: space-between;
+    position: fixed;
+    left:0;
+    right: 0;
+    background-color: white;
+    border-bottom-width: 1px;
+    border-bottom-color: #bbbbbb;
+    border-bottom-style: solid;
+    z-index: 100;
+
+}
+.left-side {
+    display: flex;
+    align-items: center;
+}
+.middle {
+    display: flex;
+    flex: 1;
+    margin-left: 70px;
+    margin-right: 35px;
+    align-items: center;
+    max-width: 500px;
+}
+.search-bar {
+    border-width: 1px;
+    border-color: rgb(192, 192, 192);;
+    border-style: solid;
+    height: 36px;
+    flex:1;
+    max-width: 500px;
+    font-size: 16px;
+    padding-left: 10px;
+    border-radius: 2px ;
+    box-shadow: inset 1px 1px 3px rgba(0,0,0,0.05);
+    width: 0;
+}
+.search-bar::placeholder {
+    font-size: 16px;
+
+}
+.hambuger-icon {
+    width: 24px;
+    height: 24px;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+.youtube-logo-icon {
+    width: 90px;
+    height: 75px;
+}
+.search-button {
+    width: 60px;
+    height: 40px;
+    background-color: rgb(231, 231, 231);
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(192, 192, 192);
+    margin-left: -1px;
+    margin-right:10px;
+}
+.search-icon {
+    padding-top: 2px;
+    height: 24px;
+}
+.voice-search-button {
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    border:none;
+    background-color: rgb(231, 231, 231);
+}
+.voice-search-icon {
+    width: 24px;
+    height: 24 px;
+    margin-top: 3px ;
+}
+.right-side {
+    width: 180px;
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    justify-content: space-between; 
+    margin-right: 20px;
+    flex-shrink: 0;
+}
+
+.upload-icon {
+    width: 24px;
+    height: 24px;
+
+}
+.youtube-apps-icon {
+    height: 24px;
+}
+.notification-icon {
+    height: 24px;
+}
+
+.my-channel-picture {
+    height: 32px;
+    border-radius: 16px;
+    border:none;
+}
+.notification-div {
+    position: relative;
+}
+.notification-updates {
+    position: absolute;
+    top: -2px;
+    right: -4px;
+    background-color: rgb(189, 5, 5);
+    color: white;
+    font-size: 10px;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 12px;
+}
